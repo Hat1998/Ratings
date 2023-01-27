@@ -7,22 +7,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="hotel.css">
     <title>Hotel Home</title>
 </head>
 
 <body>
+    <div class="container-fluid">
+<!-- Nav BAR -->
+<nav class="navbar navbar-expand-lg shadow-lg pb-3 ps-2" style="background-color: #9ac8eb;" data-bs-theme="dark">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Home Page</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="lab2.html">My Second Page</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#call-us">Contact us</a>
+            </li>
+        </ul>
+      
+    </div>
+</div>
+</nav>
 
 
 
 
 
+        <div class="row">
+                <!-- BOOTSTRAP SLIDER -->
+                <div class="px-wide">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://m.economictimes.com/thumb/msid-95433862,width-1200,height-900,resizemode-4,imgsize-29932/indian-hotels-q2-results-firm-clocks-profit-of-rs-122-crore.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://media.timeout.com/images/105892648/750/422/image.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://www.lux-review.com/wp-content/uploads/2019/09/turkish-hotel.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+            </div>
 
 
 
-    
+            </div>
+
+            <!-- Hotel Cards -->
+            <div class="row ms-5 pt-5 pb-5 w-100% h-100">
+                <div class="col">
+                    <div class="card h-100 " style="width: 18rem;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
+                            height="200" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap </h5>
+                            <p class="card-text"> Bootstrap is a free, open source front-end development framework for
+                                the
+                                creation of websites and web apps.</p>
+                            <a href="https://getbootstrap.com/" class="btn btn-primary">Go Bootstrap website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" style="width: 18rem;">
+                        <img src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png"
+                            class="card-img-top" height="175" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">React JS</h5>
+                            <p class="card-text">t's used for building interactive user interfaces and web applications
+                                quickly and efficiently with significantly less code than you would with vanilla
+                                JavaScript.
+                            </p>
+                            <a href="https://reactjs.org/" class="btn btn-primary">Go To React JS website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
+                            height="200" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tailwind CSS</h5>
+                            <p class="card-text">
+                                Tailwind CSS makes it quicker to write and maintain the code of your application. By
+                                using
+                                this utility-first framework.</p>
+                            <a href="https://tailwindcss.com/" class="btn btn-primary">Go To Tailwind CSS website </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100" style="width: 18rem;">
+                        <img src="https://camo.githubusercontent.com/edc736634dd35b0f4008e2f7db456136b9fc0e1e7a4078bb72c7352b1bdf8a7e/68747470733a2f2f776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667"
+                            height="200" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS</h5>
+                            <p class="card-text">
+                                CSS is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content</p>
+                            <a href="https://www.w3schools.com/css/css_intro.asp" class="btn btn-primary">Go To CSS website </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
