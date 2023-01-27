@@ -1,8 +1,39 @@
+* {
+    font-family: "Roboto";
+  }
+  h1 {
+    position: absolute;
+    color: #000000;
+    font-size: 50px;
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translate(-50%, -100%);
+    animation: morph-effect 10s infinite ease-in-out;
+  }
+  h1:nth-child(1) {
+    animation-delay: -10s;
+  }
+  h1:nth-child(2) {
+    animation-delay: -5s;
+  }
+  @keyframes morph-effect {
+    0%,
+    20%,
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+    40%,
+    80% {
+      filter: blur(16px);
+      opacity: 0;
+    }
+  }
 footer{
     color: #fff;
     clear: both;
      padding: 0.75em 0.75em;
-    background:   #4e0329; 
+    background:   #000000; 
     position: relative;
     top: 30px;
     border-top: 1px solid #000;
