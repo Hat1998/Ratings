@@ -1,10 +1,10 @@
-body{
-    margin:0;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-
-.px-wide{
-width: 70rem; 
-margin-left: auto;
-margin-right: auto;
+.px-wide {
+  width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
 }

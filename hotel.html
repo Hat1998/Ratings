@@ -7,130 +7,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="hotel.css">
     <title>Hotel Home</title>
 </head>
 
 <body>
     <div class="container-fluid">
-<!-- Nav BAR -->
-<nav class="navbar navbar-expand-lg shadow-lg pb-3 ps-2" style="background-color: #9ac8eb;" data-bs-theme="dark">
+        <!-- Nav BAR -->
+        <nav class="navbar navbar-expand-lg shadow-lg pb-3 ps-2 w-100%" style="background-color: #30a4fd;"
+            data-bs-theme="dark">
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">Hotel Home </a>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="lab2.html">My Second Page</a>
-            </li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><i class="fa-duotone fa-house-user">Hotel Home</i> </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lab2.html">My Second Page</a>
+                    </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#call-us">Contact us</a>
-            </li>
-        </ul>
-      
-    </div>
-</div>
-</nav>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#call-us">Contact us</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
 
 
 
 
 
         <div class="row">
-                <!-- BOOTSTRAP SLIDER -->
-                <div class="px-wide">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="https://m.economictimes.com/thumb/msid-95433862,width-1200,height-900,resizemode-4,imgsize-29932/indian-hotels-q2-results-firm-clocks-profit-of-rs-122-crore.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="https://media.timeout.com/images/105892648/750/422/image.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="https://www.lux-review.com/wp-content/uploads/2019/09/turkish-hotel.jpg" class="d-block w-100" alt="...">
-                          </div>
+            <!-- BOOTSTRAP SLIDER -->
+            <div class="px-wide">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://m.economictimes.com/thumb/msid-95433862,width-1200,height-900,resizemode-4,imgsize-29932/indian-hotels-q2-results-firm-clocks-profit-of-rs-122-crore.jpg"
+                                class="d-block w-100" alt="...">
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-            </div>
-
-
-
-            </div>
-
-            <!-- Hotel Cards -->
-            <div class="row ms-5 pt-5 pb-5 w-100% h-100">
-                <div class="col">
-                    <div class="card h-100 " style="width: 18rem;">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/198709276.webp?k=4aa53b912164e03b9cd06af13c240229520d427a16a3df8d38a8c6f8ba198e03&o=&s=1"
-                            height="200" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">INNYAR Hotel Riyadh 
-                            </h5>
-                            <p class="card-text "> يقع "INNYAR Hotel Riyadh فندق إنيار الرياض" في الرياض، وهو مكان إقامة مصنف 4 نجوم يبعد مسافة 6.2 كم من مول الرياض بارك و7.3 كم من مول الرياض غاليري، كما يوفر هذا الفندق المصنف 4 نجوم خدمة الغرف وصالة مشتركة وخدمة الواي فاي مجاناً، فيما يضم الفندق غرفاً عائلية.
-                             </p>
-                            <a href="#" class="btn btn-primary">For more information</a>
+                        <div class="carousel-item">
+                            <img src="https://media.timeout.com/images/105892648/750/422/image.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.lux-review.com/wp-content/uploads/2019/09/turkish-hotel.jpg"
+                                class="d-block w-100" alt="...">
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 " style="width: 18rem;">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/214328669.webp?k=a758292314e51563745cf0ed7a231b851a1f89e42997f018c03b5a140efe8b1b&o=&s=1"
-                            class="card-img-top" height="200" alt="...">
-                        <div class="card-body ">
-                            <h5 class="card-title">
-                                الماسم للاجنحة الاقتصادية والفاخرة  
-                                </h5>
-                            <p class="card-text pb-5">تقع أجنحة الماسم الفاخرة في الرياض، وتوفر خدمة واي فاي مجانية، ويُحيط بمكان الإقامة الرياض جاليري وحياة مول ومول الحرم وأسواق العويس، ويُمكن الوصول إليها في 5 دقائق بالسيارة   </p>
-                            <a href="#" class="btn btn-primary ">For more information</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card pb-5" style="width: 18rem;">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/30539123.webp?k=e39824dc65b494d308cbac8f3179dcd9078feaf93949ffb3be6fd63d367b352b&o=&s=1"
-                            height="200" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">مساكن رفاء</h5>
-                            <p class="card-text pb-4">يقع Rafa Homes في الرياض على بعد 10 دقائق فقط بالسيارة من غرناطة مول، ويوفر أماكن إقامة بالخدمة الذاتية. وتتوفر خدمة الواي فاي مجانًا. ويقع مكان الإقامة على بعد 10 كم من برج المملكة وعلى بعد 12 كم من برج الفيصلية.</p>
-                            <a href="https://tailwindcss.com/" class="btn btn-primary">For more information </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100" style="width: 18rem;">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/271202129.webp?k=4d0c7dd287383870cec26538d21a32aa414dec4fbf9fb396165cdf973fd60437&o=&s=1"
-                            height="200" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Admire Apart' Hotel </h5>
-                            <p class="card-text pb-4">
-                                قع "Admire Apart' Hotel - فندق ادماير" في الرياض، على بُعد 1.7 كم من بانوراما مول، وهو مكان إقامة يوفر خدمة الواي فاي مجاناً ومواقف خاصة للسيارات مجاناً، كما تتميز جميع وحدات الإقامة في الفندق المصنف 4 نجوم بإطلالات على المدينة.</p>
-                            <a href="https://www.w3schools.com/css/css_intro.asp" class="btn btn-primary">For more information </a>
-                        </div>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
 
-<!-- BOOTSTRAP JS -->
+
+
+        </div>
+
+        <!-- Hotel Cards -->
+        <div class="row ms-5 pt-5 pb-5 w-100% h-100">
+            <div class="col">
+                <div class="card h-100 " style="width: 18rem;">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/square600/198709276.webp?k=4aa53b912164e03b9cd06af13c240229520d427a16a3df8d38a8c6f8ba198e03&o=&s=1"
+                        height="200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">INNYAR Hotel Riyadh
+                        </h5>
+                        <p class="card-text "> يقع "INNYAR Hotel Riyadh فندق إنيار الرياض" في الرياض، وهو مكان إقامة
+                            مصنف 4 نجوم يبعد مسافة 6.2 كم من مول الرياض بارك و7.3 كم من مول الرياض غاليري، كما يوفر هذا
+                            الفندق المصنف 4 نجوم خدمة الغرف وصالة مشتركة وخدمة الواي فاي مجاناً، فيما يضم الفندق غرفاً
+                            عائلية.
+                        </p>
+                        <a href="#" class="btn btn-primary">For more information</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 " style="width: 18rem;">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/square600/214328669.webp?k=a758292314e51563745cf0ed7a231b851a1f89e42997f018c03b5a140efe8b1b&o=&s=1"
+                        class="card-img-top" height="200" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title">
+                            الماسم للاجنحة الاقتصادية والفاخرة
+                        </h5>
+                        <p class="card-text pb-5">تقع أجنحة الماسم الفاخرة في الرياض، وتوفر خدمة واي فاي مجانية، ويُحيط
+                            بمكان الإقامة الرياض جاليري وحياة مول ومول الحرم وأسواق العويس، ويُمكن الوصول إليها في 5
+                            دقائق بالسيارة </p>
+                        <a href="#" class="btn btn-primary ">For more information</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card pb-5" style="width: 18rem;">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/square600/30539123.webp?k=e39824dc65b494d308cbac8f3179dcd9078feaf93949ffb3be6fd63d367b352b&o=&s=1"
+                        height="200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">مساكن رفاء</h5>
+                        <p class="card-text pb-4">يقع Rafa Homes في الرياض على بعد 10 دقائق فقط بالسيارة من غرناطة مول،
+                            ويوفر أماكن إقامة بالخدمة الذاتية. وتتوفر خدمة الواي فاي مجانًا. ويقع مكان الإقامة على بعد
+                            10 كم من برج المملكة وعلى بعد 12 كم من برج الفيصلية.</p>
+                        <a href="https://tailwindcss.com/" class="btn btn-primary">For more information </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/square600/271202129.webp?k=4d0c7dd287383870cec26538d21a32aa414dec4fbf9fb396165cdf973fd60437&o=&s=1"
+                        height="200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Admire Apart' Hotel </h5>
+                        <p class="card-text pb-4">
+                            قع "Admire Apart' Hotel - فندق ادماير" في الرياض، على بُعد 1.7 كم من بانوراما مول، وهو مكان
+                            إقامة يوفر خدمة الواي فاي مجاناً ومواقف خاصة للسيارات مجاناً، كما تتميز جميع وحدات الإقامة
+                            في الفندق المصنف 4 نجوم بإطلالات على المدينة.</p>
+                        <a href="https://www.w3schools.com/css/css_intro.asp" class="btn btn-primary">For more
+                            information </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
