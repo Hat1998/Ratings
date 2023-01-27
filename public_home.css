@@ -1,0 +1,51 @@
+footer{
+    color: #fff;
+    clear: both;
+     padding: 0.75em 0.75em;
+    background:   #4e0329; 
+    position: relative;
+    top: 30px;
+    border-top: 1px solid #000;
+}
+ 
+.bg-dark-brown{
+    background:   #4e0329; 
+
+}
+.relative{
+    position: relative;
+}
+img{
+    border-radius: 10px;
+    z-index: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+ }
+
+ img:hover{
+    opacity: .8;
+    transition: all 0.7s;
+     
+
+ }
+  
+ button {
+     background: transparent;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    padding: 10px 80px;
+    border: 1px solid;
+    border-radius: 10px;
+    opacity: .8;
+    color: #fff;
+   }
+
+   button:hover{
+    background-color: #fff;
+     transition: all 0.7s;
+    color: #000;
+   }

@@ -1,2 +1,1 @@
-# Ratings
-aaa
+# Rating
