@@ -4,7 +4,12 @@ body {
 }
 
 .px-wide {
-  width: 60rem;
+  width: 90rem;
   margin-left: auto;
   margin-right: auto;
 }
+
+.img{
+  width: 400px;
+  height: 600px;
+}  
