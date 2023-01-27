@@ -1,5 +1,6 @@
 body{
     margin:0;
+    padding:0;
 }
 
 .carousels{
@@ -17,8 +18,3 @@ body{
     grid-gap: 0;
     
  }
- .rest-title{
- position: relative;
- left: 19%;
-margin-bottom: 3%; 
-}
