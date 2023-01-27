@@ -12,3 +12,12 @@ body{
     width: 400px;
     height: 500px;
  }   
+ .gard{
+    display: grid;
+    grid-gap: 0;
+    
+ }
+ .rest-title{
+ position: relative;left: 19%;
+margin-bottom: 3%; 
+}
