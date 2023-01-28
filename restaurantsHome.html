@@ -10,72 +10,48 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/rest.css" />
 
     <title>Restaurants Home</title>
   </head>
   <body>
-    <!-- navbar -->
+    
+    <nav class="navbar navbar-expand-lg shadow-lg p-3 mb-5 h3 " style="background-color: #470d29;"
+    data-bs-theme="dark">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/hotel.html">Hotel Home</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="/public_home.html"><i class="fa fa-home"></i> Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="about.html"><i class="fa fa-address-card"></i> About Us</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
+
+            <li class="nav-item ">
+                <a class="nav-link" href="#call-us"><i class="fa-solid fa-phone-volume"></i> Contact us</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
+        </ul>
+
+    </div>
+
+</nav>
+
+
+
+
+
     <br />
     <br />
     <!-- Autoplaying carousels -->
@@ -124,34 +100,7 @@
                 alt="..."
               />
             </div>
-            <!-- restaurant 05 -->
-
-            <div class="carousel-item">
-              <img
-                src="https://www.lux-review.com/wp-content/uploads/2019/09/turkish-hotel.jpg"
-                class="d-block w-100 img"
-                alt="..."
-              />
-            </div>
-            <!-- restaurant 06 -->
-
-            <div class="carousel-item">
-              <img
-                src="https://www.lux-review.com/wp-content/uploads/2019/09/turkish-hotel.jpg"
-                class="d-block w-100 img"
-                alt="..."
-              />
-            </div>
-            <!-- restaurant 07 -->
-
-            <div class="carousel-item">
-              <img
-                src="https://www.lux-review.com/wp-content/uploads/2019/09/turkish-hotel.jpg"
-                class="d-block w-100 img"
-                alt="..."
-              />
-            </div>
-            <!-- restaurant 08 -->
+          
 
             <div class="carousel-item">
               <img
@@ -186,9 +135,9 @@
     <br />
     <!-- grid card -->
 
-    <div class="row ms-5 pt-5 pb-5 w-100% h-100">
+    <div style="background-color: #470d29;" class="row ms-5 me-5 pt-5 pb-5 mt-5 w-100% h-100 shadow-lg p-3 mb-5  rounded ">
       <div class="col">
-        <div class="card h-100" style="width: 18rem">
+        <div class="card h-100 clothoid-corner  " style="width: 18rem">
           <img
             src="/images//boutique.webp"
             height="200"
@@ -202,8 +151,8 @@
             </p>
             <br>
             <br>
-            <a href="https://getbootstrap.com/" class="btn btn-primary mt-5"
-              >Go Bootstrap website</a
+            <a href="/restaurant-pages/BurgerBoutique.html" class="btn btn-primary mt-5"
+              >More</a
             >
           </div>
         </div>
@@ -224,8 +173,8 @@
             <br>
             <br>
             <br>
-            <a href="/restaurantsHome.html" class="btn btn-primary mt-5"
-              >Go To React JS website</a
+            <a href="/restaurant-pages/McDonald's.html" class="btn btn-primary mt-5"
+              >More</a
             >
           </div>
         </div>
@@ -245,8 +194,8 @@
             </p>
             <br>
             <br>
-            <a href="https://tailwindcss.com/" class="btn btn-primary mt-5"
-              >Go To Tailwind CSS website
+            <a href="/restaurant-pages/albaik.html" class="btn btn-primary mt-5"
+              >More
             </a>
           </div>
         </div>
@@ -267,18 +216,91 @@
             <br>
             <br>
             <a 
-              href="https://www.w3schools.com/css/css_intro.asp"
+              href="/restaurant-pages//SomkeyBeards.html"
               class="btn btn-primary mt-5"
-              >Go To CSS website
+              >More
             </a>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- test -->
+   <br>
 
-    <!-- BOOTSTRAP JS -->
+    
+
+     <!-- Footer -->
+     <footer class="text-center text-dark" id="call-us">
+        <!-- Section: Social media -->
+       
+
+
+        <!-- Section: Links  -->
+
+        <div class="container-fluid shadow-lg rounded" style="background-color: #F8F9FA;">
+            <!-- Grid row -->
+            <div class="row mt-5 pt-5">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3 text-light"></i>Hotel Company
+                    </h6>
+                    <!-- Section: Social media -->
+                    <div class="me-1 d-none d-lg-block mb-2">
+                        <span>Get connected with us on social networks:</span>
+                    </div>
+                    <section class="mb-4">
+                        <!-- Facebook -->
+                        <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+                            href="https://facebook.com/facebook/" role="button"><i
+                                class="fab fa-facebook-f"></i></a>
+
+                        <!-- Twitter -->
+                        <a class="btn text-white btn-floating m-1" style="background-color: #55acee;"
+                            href="https://twitter.com/home?lang=ar" role="button"><i class="fab fa-twitter"></i></a>
+
+                        <!-- Google -->
+                        <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+                            role="button"><i class="fab fa-google"></i></a>
+
+                        <!-- Instagram -->
+                        <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+                            href="https://www.instagram.com/" role="button"><i class="fab fa-instagram"></i></a>
+
+                        <!-- Linkedin -->
+                        <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+                            href="https://www.linkedin.com/" role="button"><i class="fab fa-linkedin-in"></i></a>
+                 
+                    </section>
+                    <!-- Section: Social media -->
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto ">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold  mb-3">Contact</h6>
+                    <p class="ms-4"><i class="fas fa-home me-3   text-dark"></i> Riyadh, SA 1000, KAS</p>
+                    <p class="ms-4">
+                        <i class="fas fa-envelope me-4 text-dark"></i>
+                        info@example.com
+                    </p>
+                    <p><i class="fas fa-phone me-4 text-dark"></i> +01 xxxxxxxxx</p>
+                    <p><i class="fas fa-print me-4 text-dark"></i> +01 xxxxxxxxx</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+            <!-- Copyright -->
+            <!-- Copyright -->
+            
+        </div>
+
+
+
+    </footer>
+   
+    <!-- Footer -->
+</div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
