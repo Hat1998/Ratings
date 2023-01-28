@@ -35,7 +35,7 @@ img{
 
  }
   
- button {
+ /* button {
      background: transparent;
     position: absolute;
     top: 90%;
@@ -47,7 +47,7 @@ img{
     border-radius: 10px;
     opacity: .8;
     color: #fff;
-   }
+   } */
 
    button:hover{
     background-color: #fff;
