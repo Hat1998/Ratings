@@ -1,8 +1,7 @@
 body {
   padding: 0;
   margin: 0;
- background-color: #263873;
-}
+ }
 
 .px-wide {
   width: 60rem;
@@ -14,16 +13,24 @@ box-shadow: -10px 22px 15px -7px rgba(0,0,0,0.44);
 
 }
 
+.bg-dark-brown{
+  /* background:   #4e0329; */
+  background-color: #044d84
+
+}
+
 .img{
     width: 43.75rem;
   height: 37.5rem;
 }  
 footer{
     margin:auto;
+    background-color: #044d84;
     width: 100%;
 }
 nav{
  width: 100%;
+ 
 }
 .splide{
     display: none;

@@ -9,7 +9,8 @@ footer{
 }
  
 .bg-dark-brown{
-    background:   #4e0329; 
+   /* background:   #4e0329; */
+   background-color: #044d84
 
 }
 .relative{
@@ -52,6 +53,10 @@ img{
     background-color: #fff;
      transition: all 0.7s;
     color: #000;
+   }
+
+   footer{
+    background-color: #044d84
    }
 
 
