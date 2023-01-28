@@ -1,10 +1,18 @@
 body{
     margin:0;
+
     background-color: #350b1f;
 }
 
-.carousels{
+.carouselss{
     width: 80rem; 
+
+    padding:0;
+}
+
+.carousels{
+    width: 60rem; 
+
     margin-left: auto;
     margin-right: auto;
     -webkit-box-shadow: -10px 22px 15px -7px rgba(0,0,0,0.44);
@@ -13,9 +21,21 @@ body{
 
     }
 
+
  .img{
     width: 300px;
     height: 300px;
  }   
 
+
+
+    .img{
+        width: 700px;
+      height: 600px;
+    }    
+ .gard{
+    display: grid;
+    grid-gap: 0;
+    
+ }
 
