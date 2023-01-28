@@ -6,7 +6,10 @@ body{
     /* background-color: #6d1f45dd */
 }
 
+nav{
+ width: 120%;
  
+}
 
 .carousels{
    width: 60rem;
