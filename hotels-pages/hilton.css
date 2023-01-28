@@ -34,26 +34,14 @@ img{
      
 
  }
-  
- button {
-     background: transparent;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-    padding: 10px 80px;
-    border: 1px solid;
-    border-radius: 10px;
-    opacity: .8;
-    color: #fff;
-   }
 
-   button:hover{
-    background-color: #fff;
-     transition: all 0.7s;
-    color: #000;
-   }
+
+  
+  ul{
+    list-style: none;
+  }
+
+    
 
    footer{
     background-color: #044d84
