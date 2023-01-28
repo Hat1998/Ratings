@@ -1,8 +1,8 @@
 body{
     margin:0;
     padding: 0;
-    margin: 0;
-    background-color: white;
+ 
+
     /* background-color: #6d1f45dd */
 }
 
@@ -19,32 +19,16 @@ body{
     }
 
 
- .img{
-    width: 300px;
-    height: 300px;
- }   
-
-
-
     .img{
-        width: 700px;
-      height: 600px;
-    }    
- .gard{
-    display: grid;
-    grid-gap: 0;
-    
- }
+      width: 43.75rem;
+    height: 37.5rem;
+  }  
 
- footer{
-    color: #fff;
-    clear: both;
-     padding: 0.75em 0.75em;
-    background:   #4e0329; 
-    position: relative;
-    top: 30px;
-    border-top: 1px solid #000;
-}
+
+    
+ 
+
+ 
 button:hover{
    -webkit-transition: all 0.5s 0s ease-in;
 -moz-transition: all 0.5s 0s ease-in;
