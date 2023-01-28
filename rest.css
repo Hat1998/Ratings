@@ -1,7 +1,8 @@
 body{
     margin:0;
 
-    background-color: #350b1f;
+    background-color: white;
+    /* background-color: #6d1f45dd */
 }
 
 .carouselss{
@@ -11,7 +12,8 @@ body{
 }
 
 .carousels{
-    width: 60rem; 
+    width: 60rem;
+    background-color: aliceblue;
 
     margin-left: auto;
     margin-right: auto;
