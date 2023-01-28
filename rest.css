@@ -41,3 +41,12 @@ body{
     
  }
 
+ footer{
+    color: #fff;
+    clear: both;
+     padding: 0.75em 0.75em;
+    background:   #4e0329; 
+    position: relative;
+    top: 30px;
+    border-top: 1px solid #000;
+}
