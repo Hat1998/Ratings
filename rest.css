@@ -35,3 +35,6 @@ button:hover{
 -o-transition: all 0.5s 0s ease-in;
 transition: all 0.5s 0s ease-in;
 }
+.text_slide{
+  background-color: rgb(0, 0, 0,0.50);
+  }
