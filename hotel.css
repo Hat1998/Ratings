@@ -1,7 +1,7 @@
-html {
+body {
   padding: 0;
   margin: 0;
- 
+ background-color: #263873;
 }
 
 .px-wide {
@@ -19,8 +19,12 @@ box-shadow: -10px 22px 15px -7px rgba(0,0,0,0.44);
   height: 37.5rem;
 }  
 footer{
-    margin:0;
+    margin:auto;
+    width: 100%;
 }
 nav{
  width: 100%;
+}
+.splide{
+    display: none;
 }
