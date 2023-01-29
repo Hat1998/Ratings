@@ -34,12 +34,29 @@
 
         <!--start-->
         <div class="col col-lg-6">
-          <img
-            class="img-fluid"
-            src="https://www1.lovethatdesign.com/wp-content/uploads/2018/12/20181209-Burger-Boutique-22.jpg"
-            alt=""
-            style="height: 265px; width: 500px"
-          />
+
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www1.lovethatdesign.com/wp-content/uploads/2018/12/20181209-Burger-Boutique-22.jpg" class="d-block w-100"style="height: 400px; width: 500px" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://fastly.4sqi.net/img/general/600x600/1373946528__15MbN4iUY4J_nMZBSkSL5F6O95_lW1gNU94nXu-6L4.jpg" class="d-block w-100" style="height:400px; width: 500px" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://static.takeaway.com/images/chains/at/burger_boutique/products/2022-02-chili-chesse-burger.png?timestamp=1673257549" class="d-block w-100"style="height: 400px; width: 500px" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         
         </div>
         <div class="col col-lg-6">
           <div class="row">
@@ -75,6 +92,7 @@
         </div>
       </div>
       <!--ratings-->
+      Rating:
       <div class="row mt-4 mb-4">
         <div class="col col-lg-6">
           <div class="rating-group float-start">
@@ -165,14 +183,16 @@
       </div>
       <hr />
       <br />
-
       <h3>comments:</h3>
       <!-- add commint -->
-      <input id="input" />
+      <input id="input"style="width: 90%;">
+    
+        <button onclick ="addtolist()"> Send</button>
+    
+        <ul id = "list">
+    
+        </ul>
 
-      <button onclick="addtolist()">Send</button>
-
-      <ul id="list"></ul>
     </div>
 
     <!-- Footer -->
