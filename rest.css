@@ -1,13 +1,13 @@
 body{
-    margin:0;
-    padding: 0;
- 
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 
     /* background-color: #6d1f45dd */
 }
 
 nav{
- width: 100%;
+ width: auto;
  
 }
 
